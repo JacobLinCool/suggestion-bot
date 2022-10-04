@@ -11,7 +11,7 @@ export class Skip extends BaseModule implements Module {
     ): Promise<void> {
         const [message] = args;
 
-        if (message.content.includes("no-check") || message.content.length > 100) {
+        if (message.content.length > 100 || message.content.includes("no-check")) {
             return;
         }
 
