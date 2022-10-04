@@ -1,0 +1,12 @@
+version: "3.9"
+name: suggestion-bot
+
+services:
+  bot:
+    build:
+      context: .
+      target: suggestion-bot
+    image: jacoblincool/suggestion-bot
+    env_file:
+      - .env
+    restart: unless-stopped

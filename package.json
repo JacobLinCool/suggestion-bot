@@ -1,0 +1,37 @@
+{
+    "name": "suggestion-bot",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "start": "node lib/index.js",
+        "dev": "tsup --watch",
+        "build": "tsup",
+        "format": "prettier --write . --ignore-path .gitignore",
+        "lint": "eslint ."
+    },
+    "keywords": [],
+    "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+    "license": "MIT",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "dependencies": {
+        "discord.js": "^14.5.0",
+        "pure-cat": "1.0.0-alpha.4",
+        "pure-cat-module-ignore": "1.0.0-alpha.4",
+        "pure-cat-module-suggestion": "1.0.0-alpha.4"
+    },
+    "devDependencies": {
+        "@types/node": "^18.8.2",
+        "@typescript-eslint/eslint-plugin": "^5.39.0",
+        "@typescript-eslint/parser": "^5.39.0",
+        "eslint": "^8.24.0",
+        "eslint-config-prettier": "^8.5.0",
+        "prettier": "^2.7.1",
+        "tsup": "^6.2.3",
+        "typedoc": "^0.23.15",
+        "typescript": "^4.8.4"
+    }
+}
