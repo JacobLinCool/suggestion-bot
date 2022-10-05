@@ -10,3 +10,11 @@ Just some suggestions.
 
 1. `.env` file
 2. `docker compose up -d`
+
+## Screenshots
+
+![https://i.imgur.com/ZUu0CPl.png](https://i.imgur.com/ZUu0CPl.png)
+
+![https://i.imgur.com/srVjaaf.png](https://i.imgur.com/srVjaaf.png)
+
+![https://i.imgur.com/88J8uM1.png](https://i.imgur.com/88J8uM1.png)
