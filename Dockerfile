@@ -1,8 +1,10 @@
 FROM node:alpine as builder
 
+RUN npm i -g pnpm
+RUN apk add --no-cache python3 make g++
+RUN ln -s /usr/bin/python3 /usr/bin/python
 WORKDIR /app
 COPY . .
-RUN npm i -g pnpm
 RUN pnpm i && pnpm rebuild && pnpm build && rm -rf node_modules && pnpm i --prod
 
 FROM node:alpine as suggestion-bot

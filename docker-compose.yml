@@ -7,6 +7,20 @@ services:
       context: .
       target: suggestion-bot
     image: jacoblincool/suggestion-bot
+    container_name: suggestion-bot
     env_file:
       - .env
+    depends_on:
+      - db
     restart: unless-stopped
+
+  db:
+    image: mongo:latest
+    container_name: suggestion-bot-db
+    expose:
+      - "27017:27017"
+    volumes:
+      - mongo-storage:/data/db
+
+volumes:
+  mongo-storage: {}
