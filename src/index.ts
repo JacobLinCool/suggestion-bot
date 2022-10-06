@@ -10,6 +10,7 @@ new Bot()
     .use(new I18n({ controller_prefix: "!linter lang" }))
     .use(
         new Suggestion({
+            custom_list_max_rule_size: 50,
             controller_prefix: "!linter",
             pass(content: string) {
                 return content.length > 100 || content.includes("no-check");
