@@ -19,11 +19,11 @@
     ],
     "dependencies": {
         "discord.js": "^14.5.0",
-        "pure-cat": "1.0.0-alpha.5",
-        "pure-cat-module-i18n": "1.0.0-alpha.5",
-        "pure-cat-module-ignore": "1.0.0-alpha.5",
-        "pure-cat-module-suggestion": "1.0.0-alpha.5",
-        "pure-cat-store-mongo": "1.0.0-alpha.5"
+        "pure-cat": "^1.0.0-alpha.6",
+        "pure-cat-module-i18n": "^1.0.0-alpha.6",
+        "pure-cat-module-ignore": "^1.0.0-alpha.6",
+        "pure-cat-module-suggestion": "^1.0.0-alpha.7",
+        "pure-cat-store-mongo": "^1.0.0-alpha.6"
     },
     "devDependencies": {
         "@types/node": "^18.8.2",
