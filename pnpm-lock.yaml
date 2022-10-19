@@ -11,7 +11,7 @@ specifiers:
   pure-cat: ^1.0.0-alpha.6
   pure-cat-module-i18n: ^1.0.0-alpha.6
   pure-cat-module-ignore: ^1.0.0-alpha.6
-  pure-cat-module-suggestion: ^1.0.0-alpha.9
+  pure-cat-module-suggestion: ^1.0.0-alpha.10
   pure-cat-store-mongo: ^1.0.0-alpha.6
   tsup: ^6.2.3
   typedoc: ^0.23.15
@@ -22,7 +22,7 @@ dependencies:
   pure-cat: 1.0.0-alpha.6
   pure-cat-module-i18n: 1.0.0-alpha.6
   pure-cat-module-ignore: 1.0.0-alpha.6
-  pure-cat-module-suggestion: 1.0.0-alpha.9
+  pure-cat-module-suggestion: 1.0.0-alpha.10
   pure-cat-store-mongo: 1.0.0-alpha.6
 
 devDependencies:
@@ -1720,8 +1720,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /pure-cat-module-suggestion/1.0.0-alpha.9:
-    resolution: {integrity: sha512-yfU46R+PjXnhrLEw5BTXQPOY5THWH0cxr7BgY7EJZkTTbrhcniCxgaShMnD1OxzA2ImeLJ/qqdyjaQQBP4iH9w==}
+  /pure-cat-module-suggestion/1.0.0-alpha.10:
+    resolution: {integrity: sha512-HeyqCyR9SiLp3Zatu7AVHJiOyyhU6uMQozIiBm8DxXUhK+ZK/bsYm7CsbQU2D3v4WUHTLoOrSOTE7Bj5snvf4g==}
     dependencies:
       case-police: 0.5.10
       discord.js: 14.5.0

@@ -22,7 +22,7 @@
         "pure-cat": "^1.0.0-alpha.6",
         "pure-cat-module-i18n": "^1.0.0-alpha.6",
         "pure-cat-module-ignore": "^1.0.0-alpha.6",
-        "pure-cat-module-suggestion": "^1.0.0-alpha.9",
+        "pure-cat-module-suggestion": "^1.0.0-alpha.10",
         "pure-cat-store-mongo": "^1.0.0-alpha.6"
     },
     "devDependencies": {
