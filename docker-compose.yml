@@ -21,6 +21,18 @@ services:
       - "27017:27017"
     volumes:
       - mongo-storage:/data/db
+    restart: unless-stopped
+
+  db-viwer:
+    image: mongo-express:latest
+    container_name: suggestion-bot-db-viewer
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://db:27017
+    ports:
+      - 8081:8081
+    depends_on:
+      - db
+    restart: unless-stopped
 
 volumes:
   mongo-storage: {}
