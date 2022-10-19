@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:18-alpine as builder
 
 RUN npm i -g pnpm
 RUN apk add --no-cache python3 make g++
@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 RUN pnpm i && pnpm rebuild && pnpm build && rm -rf node_modules && pnpm i --prod
 
-FROM node:alpine as suggestion-bot
+FROM node:18-alpine as suggestion-bot
 
 WORKDIR /app
 COPY --from=builder /app .
